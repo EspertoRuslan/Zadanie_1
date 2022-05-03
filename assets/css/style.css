@@ -1,10 +1,12 @@
-h1{
+.Header{
     font-size: 22px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-stretch:wider;
     color:rgb(218, 198, 86);
     letter-spacing: 2px;
+    position: relative;
+    text-align: center;
     
     
 
@@ -12,13 +14,48 @@ h1{
 
 .container1{
     background-color:chocolate;
-    font-weight: bold;
     color: azure;
+    
+    
 }
 
 .container2{
     background-color:blanchedalmond;
-    font-weight: bold;
     color:rgb(22, 172, 192);
+    position:absolute;
+    margin-bottom: 0px;
     
+    
+}
+.img_class{
+    height: 200px;
+    width: 400px;
+    
+
+    
+    
+}
+.button{
+    border-radius: 8px;
+    border: 1px solid coral;
+    position:relative;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    border-color: bisque;
+    margin: 20px;
+    padding: 10px 20px;
+    background: -o-linear-gradient(white, rgba(221, 151, 60, 0));
+    color: darkorange;
+
+
+}
+.container{
+    
+
+}
+p{font-size: 14px;
+    font-weight: normal;
+     
+
 }
