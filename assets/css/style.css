@@ -15,6 +15,7 @@
 .container1{
     background-color:chocolate;
     color: azure;
+    display:flex;
     
     
 }
@@ -30,6 +31,7 @@
 .img_class{
     height: 200px;
     width: 400px;
+    
     
 
     
@@ -48,10 +50,6 @@
     background: -o-linear-gradient(white, rgba(221, 151, 60, 0));
     color: darkorange;
 
-
-}
-.container{
-    
 
 }
 p{font-size: 14px;
